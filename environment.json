@@ -1,0 +1,21 @@
+{
+  "seeds": {
+    "data_split_cv": 42,
+    "stage1_models": 42,
+    "stage2_qaoa_init": 42,
+    "stage2_qaoa_sampling": 7,
+    "stage3_shots": 2026,
+    "stage3_monte_carlo": 11
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.18.44-fc-v378-x86_64-with-glibc2.39",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "openpyxl": "3.1.5",
+    "qiskit": "not installed",
+    "qiskit_aer": "not installed"
+  }
+}
