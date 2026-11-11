@@ -1,0 +1,341 @@
+{
+    "selected_ids":  [
+                         "C0081",
+                         "C0031",
+                         "C0079",
+                         "C0349",
+                         "C0327",
+                         "C0087"
+                     ],
+    "qubit_order":  {
+                        "q0":  "C0081",
+                        "q1":  "C0031",
+                        "q2":  "C0079",
+                        "q3":  "C0349",
+                        "q4":  "C0327",
+                        "q5":  "C0087"
+                    },
+    "bit_ordering":  "Qiskit: printed bitstring is q5 q4 q3 q2 q1 q0 (qubit 0 rightmost)",
+    "stage1_probabilities":  [
+                                 0.407965434267606,
+                                 0.403427867910009,
+                                 0.36395005623281,
+                                 0.201305966675395,
+                                 0.179205604502391,
+                                 0.160589808197889
+                             ],
+    "success_condition":  "\u003e= 3 of 6 qubits read 1",
+    "circuit":  {
+                    "gates":  "RY(theta_i) on qubit i, then measure all",
+                    "theta_i = 2*arcsin(sqrt(p_i))":  [
+                                                          1.38531238,
+                                                          1.37648316,
+                                                          1.29415849,
+                                                          0.93049102,
+                                                          0.87413444,
+                                                          0.82424911
+                                                      ],
+                    "logical_qubits":  6,
+                    "depth_with_measurement":  2,
+                    "depth_without_measurement":  1,
+                    "one_qubit_gates":  6,
+                    "two_qubit_gates":  0,
+                    "swap_gates":  0,
+                    "measurements":  6
+                },
+    "shots":  10000,
+    "seeds":  {
+                  "shots_ideal":  2026,
+                  "shots_noisy":  2027,
+                  "monte_carlo":  11
+              },
+    "exact_probability":  0.22446319602302,
+    "exact_distribution_of_number_of_subscribers":  [
+                                                        0.123620445573228,
+                                                        0.321317460383015,
+                                                        0.330598898020737,
+                                                        0.171020727993614,
+                                                        0.0466920649741379,
+                                                        0.00640338084739217,
+                                                        0.000347022207876117
+                                                    ],
+    "ideal_statevector_probability":  0.22446319602302,
+    "quantum_estimate_finite_shot":  {
+                                         "estimate":  0.2241,
+                                         "std_error":  0.0041699,
+                                         "abs_error_vs_exact":  0.0003632
+                                     },
+    "monte_carlo":  {
+                        "trials":  1000000,
+                        "estimate":  0.224512,
+                        "std_error":  0.0004172,
+                        "abs_error_vs_exact":  4.88E-05
+                    },
+    "noise_model_assumed":  {
+                                "depolarizing_1q":  0.002,
+                                "readout_p01":  0.015,
+                                "readout_p10":  0.03
+                            },
+    "noisy_unmitigated":  {
+                              "exact_noisy_probability":  0.22967053,
+                              "estimate":  0.2298,
+                              "std_error":  0.004207,
+                              "abs_error_vs_exact":  0.005337,
+                              "bias_vs_exact":  0.005207
+                          },
+    "noisy_readout_mitigated":  {
+                                    "estimate":  0.225312,
+                                    "abs_error_vs_exact":  0.000849,
+                                    "remaining_gate_error_bias_vs_exact":  0.0008097
+                                },
+    "measurement_counts_ideal":  {
+                                     "000000":  876,
+                                     "000001":  845,
+                                     "000010":  775,
+                                     "000011":  763,
+                                     "000100":  580,
+                                     "000101":  512,
+                                     "000110":  479,
+                                     "000111":  457,
+                                     "001000":  263,
+                                     "001001":  247,
+                                     "001011":  217,
+                                     "010000":  212,
+                                     "010001":  205,
+                                     "001010":  202,
+                                     "100001":  200,
+                                     "100000":  187,
+                                     "010010":  163,
+                                     "100011":  159,
+                                     "001101":  154,
+                                     "010011":  154,
+                                     "001100":  152,
+                                     "100010":  144,
+                                     "001110":  128,
+                                     "001111":  121,
+                                     "010100":  120,
+                                     "100101":  111,
+                                     "100100":  110,
+                                     "010111":  105,
+                                     "010110":  98,
+                                     "010101":  95,
+                                     "100110":  92,
+                                     "100111":  86,
+                                     "101001":  54,
+                                     "101000":  53,
+                                     "011000":  52,
+                                     "110010":  47,
+                                     "011100":  45,
+                                     "101010":  45,
+                                     "011001":  44,
+                                     "011010":  44,
+                                     "110000":  43,
+                                     "110001":  43,
+                                     "110011":  43,
+                                     "011011":  40,
+                                     "011110":  37,
+                                     "101100":  37,
+                                     "101011":  35,
+                                     "101101":  35,
+                                     "101110":  33,
+                                     "011101":  31,
+                                     "011111":  30,
+                                     "110100":  30,
+                                     "110101":  29,
+                                     "110110":  23,
+                                     "110111":  22,
+                                     "101111":  20,
+                                     "111000":  18,
+                                     "111001":  12,
+                                     "111011":  12,
+                                     "111010":  11,
+                                     "111101":  6,
+                                     "111111":  6,
+                                     "111100":  4,
+                                     "111110":  4
+                                 },
+    "measurement_counts_noisy":  {
+                                     "000000":  877,
+                                     "000001":  787,
+                                     "000010":  772,
+                                     "000011":  686,
+                                     "000100":  584,
+                                     "000110":  500,
+                                     "000101":  477,
+                                     "000111":  394,
+                                     "001000":  275,
+                                     "001001":  267,
+                                     "010001":  213,
+                                     "010000":  212,
+                                     "001011":  211,
+                                     "001010":  207,
+                                     "100000":  192,
+                                     "100010":  190,
+                                     "100011":  189,
+                                     "010010":  179,
+                                     "100001":  160,
+                                     "010011":  156,
+                                     "001100":  154,
+                                     "001110":  139,
+                                     "010101":  138,
+                                     "010100":  128,
+                                     "100100":  128,
+                                     "001111":  127,
+                                     "010111":  117,
+                                     "001101":  116,
+                                     "010110":  110,
+                                     "100101":  109,
+                                     "100110":  108,
+                                     "100111":  87,
+                                     "011010":  59,
+                                     "101000":  58,
+                                     "011000":  57,
+                                     "011001":  57,
+                                     "110000":  53,
+                                     "101001":  50,
+                                     "101010":  47,
+                                     "110011":  46,
+                                     "011011":  42,
+                                     "011101":  41,
+                                     "101011":  41,
+                                     "110001":  41,
+                                     "011100":  39,
+                                     "101100":  35,
+                                     "110100":  35,
+                                     "011110":  33,
+                                     "101111":  32,
+                                     "011111":  29,
+                                     "101101":  29,
+                                     "101110":  28,
+                                     "110010":  23,
+                                     "111010":  21,
+                                     "110101":  18,
+                                     "110110":  17,
+                                     "110111":  16,
+                                     "111011":  15,
+                                     "111000":  11,
+                                     "111001":  10,
+                                     "111110":  9,
+                                     "111101":  8,
+                                     "111100":  7,
+                                     "111111":  4
+                                 },
+    "per_customer_marginals":  [
+                                   {
+                                       "customer_id":  "C0081",
+                                       "qubit":  0,
+                                       "stage1_probability":  0.407965434267606,
+                                       "measured_p1_ideal_shots":  0.4078
+                                   },
+                                   {
+                                       "customer_id":  "C0031",
+                                       "qubit":  1,
+                                       "stage1_probability":  0.403427867910009,
+                                       "measured_p1_ideal_shots":  0.4042
+                                   },
+                                   {
+                                       "customer_id":  "C0079",
+                                       "qubit":  2,
+                                       "stage1_probability":  0.36395005623281,
+                                       "measured_p1_ideal_shots":  0.3635
+                                   },
+                                   {
+                                       "customer_id":  "C0349",
+                                       "qubit":  3,
+                                       "stage1_probability":  0.201305966675395,
+                                       "measured_p1_ideal_shots":  0.2008
+                                   },
+                                   {
+                                       "customer_id":  "C0327",
+                                       "qubit":  4,
+                                       "stage1_probability":  0.179205604502391,
+                                       "measured_p1_ideal_shots":  0.1789
+                                   },
+                                   {
+                                       "customer_id":  "C0087",
+                                       "qubit":  5,
+                                       "stage1_probability":  0.160589808197889,
+                                       "measured_p1_ideal_shots":  0.1611
+                                   }
+                               ],
+    "backend":  "NumPy statevector / density-matrix simulation (see qiskit_port/ for Qiskit + Aer with ZNE and readout mitigation)",
+    "input_check":  {
+                        "probabilities_identical_to_stage1_file":  true,
+                        "selected_ids_identical_to_stage2_file":  true
+                    },
+    "error_propagation":  {
+                              "method":  "100 stratified 80% training subsamples; refit final pipeline incl. calibration; predict test again",
+                              "baseline_selected_ids":  [
+                                                            "C0081",
+                                                            "C0031",
+                                                            "C0079",
+                                                            "C0349",
+                                                            "C0327",
+                                                            "C0170"
+                                                        ],
+                              "baseline_probabilities":  [
+                                                             0.4792110469640717,
+                                                             0.4679281567676182,
+                                                             0.3807599006645003,
+                                                             0.2242837677947921,
+                                                             0.1826413920497772,
+                                                             0.1734087287733838
+                                                         ],
+                              "top10_overlap_with_submitted":  {
+                                                                   "mean":  6.68,
+                                                                   "min":  0,
+                                                                   "max":  9
+                                                               },
+                              "fraction_runs_same_six_selected":  0.02,
+                              "mean_overlap_of_selected_six":  3.43,
+                              "selected_probabilities_sd_across_subsamples":  {
+                                                                                  "C0081":  0.10124706718495408,
+                                                                                  "C0031":  0.0948443538766049,
+                                                                                  "C0079":  0.10081996258536606,
+                                                                                  "C0349":  0.04374252042674594,
+                                                                                  "C0327":  0.039747418777158317,
+                                                                                  "C0170":  0.0341259808402875
+                                                                              },
+                              "stage3_probability_baseline":  0.28336427879895787,
+                              "stage3_probability_across_subsamples":  {
+                                                                           "mean":  0.1204267962270811,
+                                                                           "sd":  0.07938375888051463,
+                                                                           "p05":  0.028503565942332467,
+                                                                           "p95":  0.29934663509954546
+                                                                       },
+                              "delta_method_sd_stage3_assuming_independent_errors":  0.05952447799633965,
+                              "dP_dp_i":  {
+                                              "C0081":  0.30949980279859624,
+                                              "C0031":  0.31213968501753175,
+                                              "C0079":  0.3313085576536756,
+                                              "C0349":  0.34879944831839316,
+                                              "C0327":  0.3499923297065055,
+                                              "C0170":  0.3501026075236613
+                                          }
+                          },
+    "noisy_zne_mitigated":  {
+                                "scale_factors":  [
+                                                      1,
+                                                      2,
+                                                      3
+                                                  ],
+                                "unmitigated_estimates":  [
+                                                              0.2298,
+                                                              0.2351,
+                                                              0.2404
+                                                          ],
+                                "zne_linear_estimate":  0.2245,
+                                "abs_error_vs_exact":  3.7E-05
+                            },
+    "noisy_layered_mitigated":  {
+                                    "method":  "Readout Inversion (TREX) + Zero-Noise Extrapolation (ZNE)",
+                                    "readout_mitigated_scales":  [
+                                                                     0.225312,
+                                                                     0.226122,
+                                                                     0.226932
+                                                                 ],
+                                    "dual_mitigated_estimate":  0.224502,
+                                    "abs_error_vs_exact":  3.9E-05,
+                                    "residual_error_vs_exact":  3.9E-05
+                                }
+}
